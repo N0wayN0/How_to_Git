@@ -1,7 +1,7 @@
 
 ## Git configuration
-git config --global user.name "your name"
-git config --global user.email "email@domain.com"
+    $ git config --global user.name "your name"
+    $ git config --global user.email "email@domain.com"
 
 ## SSH Keypair
 
