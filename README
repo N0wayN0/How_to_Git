@@ -1,0 +1,10 @@
+
+## Got configuration
+git config --global user.name "your name"
+git config --global user.email "email@domain.com"
+
+## SSH Keypair
+
+Create an SSH keypair to be used as GitHub deploy keys. We'll use the computername as key comment, leave the passphrase empty and move the generated keypair to the new repository. We also limit access to the owner or pushing to GitHub is blocked:
+
+    ssh-keygen -t rsa -b 4096 -C "keyname"
