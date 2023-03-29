@@ -21,6 +21,6 @@ Then add your ssh-key to working agent:
 ## Check if ssh-key works
 
     $ ssh -T git@github.com
-# Attempt to SSH in to github
-> Hi USERNAME! You've successfully authenticated, but GitHub does not provide
-> shell access.
+    # Attempt to SSH in to github
+    > Hi USERNAME! You've successfully authenticated, but GitHub does not provide
+    > shell access.
